@@ -1,0 +1,43 @@
+#container {
+    text-align: left;
+    width: 700px;
+}
+
+h1 {
+    z-index: 3;
+    position: fixed;
+    line-height: 100vh;
+    font-size: 100px;
+    margin-top: 1px;
+    font-weight: 500;
+    color: #fff;
+    font-family: Arial;
+    font-weight: 800;
+    text-align: center;
+    mix-blend-mode: difference;
+    text-transform: uppercase;
+}
+
+p {
+    display: block;
+}
+
+#fullImage {
+    width: 100vw;
+    height: 100vw;
+    margin: 0px;
+    overflow: hidden;
+    background-size: contain;
+}
+
+#footer {
+    width: 700px;
+    height: 100px;
+    clear: both;
+    padding: 50px;
+}
+
+
+
+
+
