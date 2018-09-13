@@ -4,13 +4,53 @@ html {
     margin-left: 2%;
 }
 
-h2{
-    margin-bottom: 5%;
+
+h1{
+   font-size: 80%;
     
+}
+
+#container{
+    width: 70%;
+    margin-left: 50%;
 }
 
 p {
 	margin-right: 10%;
 	margin-left: 10%;
     margin-bottom: 5%;
+    font-weight: 200;
 }
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: #F8F1FF;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li{
+    line-height: 20px;
+
+}
+
