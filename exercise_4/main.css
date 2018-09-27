@@ -1,0 +1,135 @@
+body {
+    margin-left: 10vw;
+    background-color: deepskyblue;
+}
+
+#container {
+    margin: 2vw 0vw 2vw 1vw;
+    display: inline-block;
+}
+
+
+.grid {
+    background-color: deepskyblue;
+    width: 26vw;
+    height: 26vw;
+    display: inline-block;
+    margin: 0vw 1vw 1vw 0vw;
+}
+
+/* 1 */
+#circle {
+    background-color: aliceblue;
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+    border-radius: 50%;
+    animation: positionAnimation 5s linear infinite;
+}
+
+@keyframes positionAnimation {
+    0% {margin-left: 25%}
+    25% {margin-left: 50%}
+    75% {margin-left: 0%}
+    100% {margin-left: 25%}
+
+}
+
+/* 2 */
+#circle2 {
+    background-color: darkcyan;
+    width: 60%;
+    height: 60%;
+    margin: 25%;
+    border-radius: 50%;
+    transition: .1s transform;
+}
+
+#circle2:hover{
+    transform: scale(5)
+}
+
+#circle2:active {
+    transform: scale(11)
+}
+
+
+/* 3 */
+#circle3{
+    background-color: red;
+    width: 200%;
+    height: 500%;
+    margin: 25%;
+    border-radius: 50%;
+    animation: rotateAnimation 1s ease infinite;
+}
+
+@keyframes rotateAnimation {
+    100% {transform: rotate(0deg); opacity: 0;}
+    50% {transform: rotate(-90deg); opacity: 1;}
+    100% {transform: rotate(-180deg); opacity: 0;}
+
+}
+
+
+/* 4 */
+#circle4 {
+    background-color: darkred;
+    width: 10%;
+    height: 10%;
+    margin: 25%;
+    border-radius: 50%;
+    transition: .1s;
+    animation: smallAnimation 5s linear infinite;
+}
+
+@keyframes smallAnimation {
+    0% {margin-left: 25%}
+    25% {margin-left: 80%}
+    75% {margin-left: -20%}
+    100% {margin-left: 200%}
+
+}
+
+
+/* 5 */
+#circle5 {
+    background-color: #00FFFF;
+    width: 10%;
+    height: 10%;
+    margin: 25%;
+    border-radius: 50%;
+    transition: .1s;
+    bottom: 0;
+    animation: fastAnimation 1s linear infinite;
+}
+
+@keyframes fastAnimation {
+    0% {margin-left: 25%}
+    25% {margin-left: 80%}
+    75% {margin-left: -20%}
+    100% {margin-left: 200%}
+
+}
+
+/* 5 */
+#circle5 {
+    background-color: #00FFFF;
+    width: 10%;
+    height: 10%;
+    margin: 25%;
+    border-radius: 50%;
+    transition: .1s;
+    bottom: 0;
+    animation: MoveUpDown 1s linear infinite;
+}
+
+@keyframes MoveUpDown {
+    0% {margin-left: 25%}
+    25% {margin-left: 80%}
+    75% {margin-left: -20%}
+    100% {margin-left: 200%}
+
+}
+
+
