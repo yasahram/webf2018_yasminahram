@@ -1,0 +1,55 @@
+@font-face {
+    font-family: harbourregular;
+    src: url(harbourregular.ttf);
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family: harbourregular;
+}
+
+nav  {
+    margin-bottom: 20vh;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 8%;
+    opacity: 0.1;
+}
+
+
+.letter {
+    font-size: 500%;
+}
+
+.container {
+    margin: 0;
+    display: inline-block;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    position: relative;
+}
+
+
+.section {
+    opacity: inherit;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+}
+
+footer {
+    font-size: 150%;
+    height: 80vh;
+    margin-left: 45%;
+    position: sticky;
+    
+}
