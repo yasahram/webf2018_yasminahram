@@ -1,0 +1,48 @@
+@font-face {
+    font-family: harbourregular;
+    src: url(harbourregular.ttf);
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family: harbourregular;
+    margin-bottom: 200%;
+    overflow: hidden;
+
+}
+
+
+.letter {
+    font-size: 400%;
+}
+
+.container {
+    margin: 0;
+    display: inline-block;
+    margin-top: 40vh;
+    margin-left: 10%;
+    height: 90vh;
+    position: relative;
+    overflow: scroll;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+}
+
+.letter_y:hover {
+  font-size: 0;
+  line-height: 0; 
+}
+
+.letter_y:hover:before {
+  content: attr(data-hover);
+}
+
+    mix-blend-mode: difference;

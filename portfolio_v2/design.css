@@ -1,0 +1,36 @@
+@font-face {
+    font-family: harbourregular;
+    src: url(harbourregular.ttf);
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family: harbourregular;
+}
+
+
+.letter {
+    font-size: 400%;
+}
+
+.container {
+    margin: 0;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 40vh;
+    position: relative;
+}
+
+
+.section {
+    opacity: inherit;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+}
