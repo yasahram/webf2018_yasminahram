@@ -1,0 +1,75 @@
+@font-face {
+    font-family: harbourregular;
+    src: url(harbourregular.ttf);
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family: harbourregular;
+    margin-bottom: 200%;
+    overflow: hidden;
+
+}
+
+
+.letter {
+    font-size: 550%;
+}
+
+.container {
+    margin: 0;
+    display: inline-block;
+    margin-top: 40vh;
+    margin-left: 10%;
+    height: 90vh;
+    position: relative;
+    overflow: scroll;
+}
+
+@keyframes change-color {
+    
+      0% {
+    color: #b3dbd3;
+      }
+      50% {
+        color: #FFF693;
+      }
+    100% {
+        color: red;
+      }
+
+}
+
+#light_up {
+    animation: change-color 3s ease-in-out infinite;
+}
+
+a:link, a:visited {
+    animation: change-color 3s ease-in-out infinite;
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+}
+
+@media only screen and (max-width: 900px){
+    
+    body {
+        margin-top: 17%;
+    }
+    
+    .letter {
+        font-size: 280%;
+    }  
+    
+    .container {
+        align-content: center;
+        text-align: center;
+        display:inline;
+    }
+    
+}
+    
+    mix-blend-mode: difference;

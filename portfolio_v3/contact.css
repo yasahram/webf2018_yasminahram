@@ -1,0 +1,81 @@
+@font-face {
+    font-family: harbourregular;
+    src: url(harbourregular.ttf);
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family: harbourregular;
+    margin-top: 22%;
+    overflow: hidden;
+}
+
+
+.letter {
+    font-size: 200%;
+}
+
+.container {
+    margin: 0;
+    align-content: center;
+    margin-left: 28%;
+    position: relative;
+}
+
+@keyframes change-color {
+    
+      0% {
+    color: #b3dbd3;
+      }
+      50% {
+        color: #FFF693;
+      }
+    100% {
+        color: red;
+      }
+
+}
+
+
+
+a:link, a:visited {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+    animation: change-color 3s ease-in-out infinite;
+
+}
+
+#home{
+    margin-left: 90%;
+    margin-top: 20%;
+    animation: change-color 3s ease-in-out infinite;
+}
+
+@media only screen and (max-width: 900px){
+    
+    body {
+        margin-top: 42%;
+        margin-left: 12%;
+        margin-right: 8%;
+    }
+    
+    .letter {
+        font-size: 200%;
+        margin-top: 10%;
+    }  
+    
+    .container {
+        align-content: center;
+        text-align: center;
+        display:inline;
+    }
+    
+    #home {
+        margin-top: 40%;
+    }
+    
+}
